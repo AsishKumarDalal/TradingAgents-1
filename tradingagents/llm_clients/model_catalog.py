@@ -38,12 +38,17 @@ MODEL_OPTIONS: ProviderModeOptions = {
     },
     "google": {
         "quick": [
+            ("Gemma 3 12B IT - Advanced efficient model", "gemma-3-12b-it"),
+            ("Gemma 3 4B IT - Fast on-device capable", "gemma-3-4b-it"),
+            ("Gemma 2 9B IT - Fast, efficient local-class", "gemma-2-9b-it"),
             ("Gemini 3 Flash - Next-gen fast", "gemini-3-flash-preview"),
             ("Gemini 2.5 Flash - Balanced, stable", "gemini-2.5-flash"),
             ("Gemini 3.1 Flash Lite - Most cost-efficient", "gemini-3.1-flash-lite-preview"),
             ("Gemini 2.5 Flash Lite - Fast, low-cost", "gemini-2.5-flash-lite"),
         ],
         "deep": [
+            ("Gemma 3 27B IT - Highly capable open weight", "gemma-3-27b-it"),
+            ("Gemma 2 27B IT - Highly capable open weight", "gemma-2-27b-it"),
             ("Gemini 3.1 Pro - Reasoning-first, complex workflows", "gemini-3.1-pro-preview"),
             ("Gemini 3 Flash - Next-gen fast", "gemini-3-flash-preview"),
             ("Gemini 2.5 Pro - Stable pro model", "gemini-2.5-pro"),
