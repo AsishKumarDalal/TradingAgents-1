@@ -38,14 +38,12 @@ MODEL_OPTIONS: ProviderModeOptions = {
     },
     "google": {
         "quick": [
-            ("Gemma 4 26B (MoE) - High-speed inference", "gemma-4-26b-it"),
-            ("Gemma 3 12B IT - Reliable tool-use for mid-size", "gemma-3-12b-it"),
-            ("Gemma 4 E4B - Multimodal edge (caution: tool-calling issues)", "gemma-4-e4b-it"),
+            ("Gemma 4 31B IT - High-quality reasoning", "gemma-4-31b-it"),
+            ("Gemma 3 27B IT - Highly capable open weight", "gemma-3-27b-it"),
         ],
         "deep": [
             ("Gemma 4 31B IT - High-quality reasoning", "gemma-4-31b-it"),
             ("Gemma 3 27B IT - Highly capable open weight", "gemma-3-27b-it"),
-            ("Gemma 4 26B (MoE) - High-speed inference", "gemma-4-26b-it"),
         ],
     },
     "xai": {
